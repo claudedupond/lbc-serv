@@ -98,7 +98,7 @@
       <file leaf-file-name="lbcscraper.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/lbcscraper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="9" selection-start="3990" selection-end="3990" vertical-scroll-proportion="2.9651163" vertical-offset="0" max-vertical-offset="2074">
+            <state line="22" column="34" selection-start="767" selection-end="767" vertical-scroll-proportion="-1.4684385" vertical-offset="1258" max-vertical-offset="2074">
               <folding />
             </state>
           </provider>
@@ -525,7 +525,7 @@
       <workItem from="1392152785956" duration="20900000" />
       <workItem from="1392212772056" duration="3891000" />
       <workItem from="1392242492468" duration="4673000" />
-      <workItem from="1392323379774" duration="4833000" />
+      <workItem from="1392323379774" duration="5948000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1392013291518</created>
@@ -535,7 +535,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63479000" />
+    <option name="totallyTimeSpent" value="64594000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -960,7 +960,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/lbcscraper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="9" selection-start="3990" selection-end="3990" vertical-scroll-proportion="2.9651163" vertical-offset="0" max-vertical-offset="2074">
+        <state line="22" column="34" selection-start="767" selection-end="767" vertical-scroll-proportion="-1.4684385" vertical-offset="1258" max-vertical-offset="2074">
           <folding />
         </state>
       </provider>
