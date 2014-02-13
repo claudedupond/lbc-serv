@@ -41,18 +41,4 @@ http.createServer(app).listen(app.get('port'), app.get('ip'), function () {
     console.log('Express server listening on port ' + app.get('port'));
     global.lbcscraper.run();
     var requestJSON = require('request-json');
-    var client = requestJSON.newClient('http://localhost:3000/');
-    client.post('add', {options:{
-        url: "http://www.leboncoin.fr/voitures/621302665.htm?ca=12_s",
-        port: 80,
-        method: 'GET'
-    }, title:"",  particulier: true, urgent: true}, function (err, res, body) {
-        if (err) {
-            console.error(err);
-            res.send(global.running);
-        }
-        else{
-            console.log(body);
-        }
-    });
 });
