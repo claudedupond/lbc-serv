@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>online</title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
+<h1>online</h1>
+<h2>Last Advert: <%=last%></h2>
+<h2>Count : <%=count%></h2>
+<h2>Time Out: <%=timeOut%></h2>
+<h2>Running: <%=running%></h2>
+<% if(waitingList) { %>
+<h2>Waiting List : <%=waitingList.length%></h2>
+<ul>
+    <% for(var i=0; i<waitingList.length; i++) { %>
+    <li>
+        <a href='<%= waitingList[i].options.url %>'> <%= waitingList[i].options.url %></a>
+    </li>
+    <% } %>
+</ul>
+<% } %>
+</body>
+</html>
