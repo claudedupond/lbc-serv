@@ -28,7 +28,7 @@ exports.stop = function (req, res) {
 };
 
 exports.updateServer = function (req, res) {
-    if(req.body){
+    if(req.body.url){
         global.server = req.body.url;
     }
     res.send(true);
