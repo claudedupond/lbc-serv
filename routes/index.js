@@ -28,6 +28,8 @@ exports.stop = function (req, res) {
 };
 
 exports.updateServer = function (req, res) {
-    global.server = req.body.url;
+    if(req.body){
+        global.server = req.body.url;
+    }
     res.send(true);
 };
