@@ -25,6 +25,7 @@ if ('development' == app.get('env')) {
     app.use(express.errorHandler());
 }
 
+global.server = 'http://main-leboncoin.rhcloud.com/';
 global.running = true;
 global.last = new Date().toString('T');
 global.waitingList = [];
@@ -36,9 +37,9 @@ app.post('/stat', routes.stat);
 app.post('/add', routes.add);
 app.post('/start', routes.start);
 app.post('/stop', routes.stop);
+app.post('/updateserver', routes.updateServer);
 
 http.createServer(app).listen(app.get('port'), app.get('ip'), function () {
     console.log('Express server listening on port ' + app.get('port'));
     global.lbcscraper.run();
-    var requestJSON = require('request-json');
 });

@@ -68,10 +68,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+            <state line="32" column="2" selection-start="787" selection-end="787" vertical-scroll-proportion="1.4408284" vertical-offset="57" max-vertical-offset="646">
               <folding />
             </state>
           </provider>
@@ -80,7 +80,7 @@
       <file leaf-file-name="index.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="30" selection-start="268" selection-end="268" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="493">
+            <state line="18" column="44" selection-start="485" selection-end="485" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -89,16 +89,16 @@
       <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="9" selection-start="1749" selection-end="1749" vertical-scroll-proportion="-16.26923" vertical-offset="512" max-vertical-offset="1088">
+            <state line="25" column="1" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0" vertical-offset="265" max-vertical-offset="867">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lbcscraper.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="lbcscraper.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/lbcscraper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="34" selection-start="767" selection-end="767" vertical-scroll-proportion="-1.4684385" vertical-offset="1258" max-vertical-offset="2074">
+            <state line="14" column="40" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2091">
               <folding />
             </state>
           </provider>
@@ -124,10 +124,10 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/routes/addadvert.js" />
-        <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/lib/lbcscraper.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -525,7 +525,7 @@
       <workItem from="1392152785956" duration="20900000" />
       <workItem from="1392212772056" duration="3891000" />
       <workItem from="1392242492468" duration="4673000" />
-      <workItem from="1392323379774" duration="5948000" />
+      <workItem from="1392323379774" duration="9191000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1392013291518</created>
@@ -535,7 +535,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64594000" />
+    <option name="totallyTimeSpent" value="67837000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -559,7 +559,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -568,7 +568,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39968154" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39968154" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -937,30 +937,30 @@
         <state line="150" column="27" selection-start="4029" selection-end="4029" vertical-scroll-proportion="0.33136094" vertical-offset="2234" max-vertical-offset="23137" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="30" selection-start="268" selection-end="268" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="493">
+        <state line="18" column="44" selection-start="485" selection-end="485" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="9" selection-start="1749" selection-end="1749" vertical-scroll-proportion="-16.26923" vertical-offset="512" max-vertical-offset="1088">
+        <state line="25" column="1" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0" vertical-offset="265" max-vertical-offset="867">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/lbcscraper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="34" selection-start="767" selection-end="767" vertical-scroll-proportion="-1.4684385" vertical-offset="1258" max-vertical-offset="2074">
+        <state line="14" column="40" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2091">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="2" selection-start="787" selection-end="787" vertical-scroll-proportion="1.4408284" vertical-offset="57" max-vertical-offset="646">
           <folding />
         </state>
       </provider>

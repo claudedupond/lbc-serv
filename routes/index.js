@@ -1,5 +1,5 @@
 exports.index = function (req, res) {
-    res.render('index', {waitingList: global.waitingList, last: global.last, count: global.count, timeOut: global.timeOut, running: global.running});
+    res.render('index', {server: global.server, waitingList: global.waitingList, last: global.last, count: global.count, timeOut: global.timeOut, running: global.running});
 };
 
 exports.stat = function (req, res) {
@@ -24,5 +24,10 @@ exports.start = function (req, res) {
 exports.stop = function (req, res) {
     global.waitingList = [];
     global.running = false;
+    res.send(true);
+};
+
+exports.updateServer = function (req, res) {
+    global.server = req.body.server;
     res.send(true);
 };
