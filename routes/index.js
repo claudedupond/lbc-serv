@@ -7,12 +7,9 @@ exports.stat = function (req, res) {
 };
 
 exports.add = function (req, res) {
-    if(global.running){
-        global.waitingList.push(req.body);
-        res.send(true);
-    }
-    else
-        res.send(false);
+    global.running = true;
+    global.waitingList.push(req.body);
+    res.send(true);
 };
 
 exports.start = function (req, res) {
