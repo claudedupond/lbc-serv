@@ -25,7 +25,7 @@ if ('development' == app.get('env')) {
     app.use(express.errorHandler());
 }
 
-global.server = 'http://main-leboncoin.rhcloud.com/';
+global.server = 'http://mainserver.aws.af.cm/';
 global.running = true;
 global.last = new Date().toString('T');
 global.waitingList = [];
