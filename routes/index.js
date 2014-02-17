@@ -7,20 +7,27 @@ exports.stat = function (req, res) {
 };
 
 exports.add = function (req, res) {
-    global.running = true;
     global.waitingList.push(req.body);
+    if(!global.running){
+        global.running = true;
+        global.lbcscraper.run();
+    }
     res.send(true);
 };
 
 exports.start = function (req, res) {
-    global.waitingList = [];
-    global.running = true;
+    if(!global.running){
+        global.running = true;
+        global.lbcscraper.run();
+    }
     res.send(true);
 };
 
 exports.stop = function (req, res) {
-    global.waitingList = [];
-    global.running = false;
+    if(global.running){
+        global.waitingList = [];
+        global.running = false;   
+    }
     res.send(true);
 };
 
